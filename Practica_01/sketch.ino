@@ -9,8 +9,8 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  for(contador=0;contador<=10; contador++){
-    Serial.print("Contador:");
+  for(contador=0;contador<=8; contador++){
+    Serial.print("Contando:");
     Serial.println(contador);
   }
 
